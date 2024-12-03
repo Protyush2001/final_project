@@ -14,7 +14,7 @@ dotenv.config();
 app.use(express.json());
 
 const corsOptions = {
-    origin: ["foodapp-topaz-six.vercel.app"],
+    origin: ["https://final-project-3-99k0.onrender.com"],
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     preflightContinue: false,
     optionsSuccessStatus: 204
